@@ -26,9 +26,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
       - name: Setup Node.js environment
-      uses: actions/setup-node@v3
-      with:
-        node-version: ${{ env.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ env.node-version }}
       - name: Install Dependencies
         run: yarn install --immutable
       - name: Build the project
