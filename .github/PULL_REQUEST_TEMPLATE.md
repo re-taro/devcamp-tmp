@@ -1,1 +1,1 @@
-Close #{issue番号}
+Close #{issue 番号}

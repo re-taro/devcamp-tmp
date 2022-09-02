@@ -13,12 +13,7 @@ const GradientText: FC<HTMLChakraProps<"span">> = (chakraProps) => (
 );
 
 const Index: NextPage = () => (
-  <chakra.div
-    height="100vh"
-    display="flex"
-    justifyContent="center"
-    alignItems="center"
-  >
+  <chakra.div height="100vh" display="flex" justifyContent="center" alignItems="center">
     <GradientText as="h2">Hello Chakra UI</GradientText>
     <DarkModeSwitch marginLeft="64px" fontSize="2vw" />
   </chakra.div>

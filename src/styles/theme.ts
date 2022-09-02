@@ -4,10 +4,7 @@ import { ChakraTheme } from "@chakra-ui/react";
  * typography関連を管理したい場合はここに記述する
  * @see https://github.com/chakra-ui/chakra-ui/blob/main/packages/theme/src/foundations/typography.ts
  */
-const typography: Pick<
-  ChakraTheme,
-  "fonts" | "fontSizes" | "fontWeights" | "letterSpacings" | "lineHeights"
-> = {
+const typography: Pick<ChakraTheme, "fonts" | "fontSizes" | "fontWeights" | "letterSpacings" | "lineHeights"> = {
   fonts: {},
   fontSizes: {},
   fontWeights: {},
@@ -21,15 +18,7 @@ const typography: Pick<
  */
 const foundations: Pick<
   ChakraTheme,
-  | "borders"
-  | "breakpoints"
-  | "colors"
-  | "radii"
-  | "shadows"
-  | "sizes"
-  | "space"
-  | "transition"
-  | "zIndices"
+  "borders" | "breakpoints" | "colors" | "radii" | "shadows" | "sizes" | "space" | "transition" | "zIndices"
 > &
   typeof typography = {
   borders: {},
